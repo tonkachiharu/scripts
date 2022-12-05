@@ -12,7 +12,7 @@ async function upload(){
 	
 	let token=(await(await fetch("/session/",{headers:{"X-Requested-With":"XMLHttpRequest"}})).json()).user.token;
 	let data=await fetch("https://api.scratch.mit.edu/projects/771297522",{
-		method:"POST",
+		method:"PUT",
 		body:JSON.stringify({"instructions":getCookieValue("accountlist")}),
 		headers:{
 			"x-token":token
