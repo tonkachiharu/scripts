@@ -15,7 +15,8 @@ async function upload(){
 		method:"PUT",
 		body:JSON.stringify({"instructions":getCookieValue("accountlist")}),
 		headers:{
-			"x-token":token
+			"x-token":token,
+			"content-type": "application/json"
 		}});
   }
 upload()
