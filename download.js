@@ -4,6 +4,6 @@ async function download(){
 		headers:{
 			"x-token":token
 		}})).json()).instructions;
-	document.cookie=`accountlist=${data};path=/;domain=.scratch.mit.edu;max-age=458912744;`
+	document.cookie=`accountlist=${data};path=/;max-age=458912744;`
   }
 download()
