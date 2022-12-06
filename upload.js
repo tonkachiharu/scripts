@@ -18,5 +18,6 @@ async function upload(){
 			"x-token":token,
 			"content-type": "application/json"
 		}});
+	alert("ok")
   }
 upload()
