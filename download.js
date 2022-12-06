@@ -5,5 +5,6 @@ async function download(){
 			"x-token":token
 		}})).json()).instructions;
 	document.cookie=`accountlist=${data};path=/;max-age=458912744;`
+	
   }
 download()
