@@ -1,0 +1,16 @@
+<h1>学校の技術の宿題を爆速で終わらせる方法</h1>
+    <h2>方法</h2>
+    <h4>
+      ①<a
+        href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);"
+      >
+        これ</a
+      >をブックマークバーにドラッグ＆ドロップ<br />
+      ②ライフイズテックレッスンの、<br />
+      <img
+        src="https://cdn.glitch.global/55aa62af-0ab8-4a0a-95a9-f9c4c32dd5d9/Screenshot%202022-12-10%2019.26.30.png?v=1670668004686"
+        width="500"
+      /><br />
+      こんな画面に行ったら、そのドロップしたブックマークを、そこでクリック！<br /><br />
+      そうすれば、あら不思議、一瞬でCongratulation!のページに行くよ！
+    </h4>
