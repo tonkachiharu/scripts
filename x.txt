@@ -1,10 +1,10 @@
 <h1>学校の技術の宿題を爆速で終わらせる方法</h1>
     <h2>方法</h2>
     <h4>
-      ①<ahref="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
+      ①<a href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
         一つ目のﾌﾞｯｸﾏｰｸ</a>をブックマークバーにドラッグ＆ドロップ<br
         />
-      ②<ahref="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
+      ②<a href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
         二つ目のﾌﾞｯｸﾏｰｸ
         </a>をブックマークバーにドラッグ＆ドロップ
       ③ライフイズテックレッスンの、<br/>
