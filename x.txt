@@ -3,7 +3,7 @@
 <h4>
     ①<a href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
         一つ目のﾌﾞｯｸﾏｰｸ</a>をブックマークバーにドラッグ＆ドロップ<br>
-    ②<a href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
+    ②<a href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat2.js';document.body.appendChild(src);">
         二つ目のﾌﾞｯｸﾏｰｸ
     </a>をブックマークバーにドラッグ＆ドロップ<br>
     ③ライフイズテックレッスンの、<br>
