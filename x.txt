@@ -1,16 +1,19 @@
 <h1>学校の技術の宿題を爆速で終わらせる方法</h1>
     <h2>方法</h2>
     <h4>
-      ①<a
-        href="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);"
-      >
-        これ</a
-      >をブックマークバーにドラッグ＆ドロップ<br />
-      ②ライフイズテックレッスンの、<br />
+      ①<ahref="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
+        一つ目のﾌﾞｯｸﾏｰｸ</a>をブックマークバーにドラッグ＆ドロップ<br
+        />
+      ②<ahref="javascript:var src=document.createElement('script');src.src='https://haruymth.github.io/tools/workCheat.js';document.body.appendChild(src);">
+        二つ目のﾌﾞｯｸﾏｰｸ
+        </a>をブックマークバーにドラッグ＆ドロップ
+      ③ライフイズテックレッスンの、<br/>
       <img
-        src="https://cdn.glitch.global/55aa62af-0ab8-4a0a-95a9-f9c4c32dd5d9/Screenshot%202022-12-10%2019.26.30.png?v=1670668004686"
+        src="https://cdn.glitch.global/55aa62af-0ab8-4a0a-95a9-f9c4c32dd5d9/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20(110).png?v=1670720292254"
         width="500"
       /><br />
-      こんな画面に行ったら、そのドロップしたブックマークを、そこでクリック！<br /><br />
+      こんな画面に行ったら、一つ目のﾌﾞｯｸﾏｰｸをクリックして、少し(2秒～5秒ほど)待つ<br />
+      ④一つ目のﾌﾞｯｸﾏｰｸの実行が終わったら、次のページに飛ぶので、そこで、二つ目のﾌﾞｯｸﾏｰｸをクリック！
+      <br />
       そうすれば、あら不思議、一瞬でCongratulation!のページに行くよ！
     </h4>
