@@ -10,7 +10,7 @@
             }
             return '';
         }
-        let password = getCookieValue(' password');
+        let password = getCookieValue('password');
         let username = getCookieValue('account').split(',')[0];
         let as = getCookieValue('account').split(',');
         as.splice(0, 1);
