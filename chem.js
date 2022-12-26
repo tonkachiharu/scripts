@@ -12,6 +12,3 @@ document.getElementById('id_old_password').value = getCookieValue('oldpassword')
 document.getElementById('id_new_password1').value = getCookieValue('newpassword');
 document.getElementById('id_new_password2').value = getCookieValue('newpassword');
 document.getElementById('password-change').getElementsByTagName('button')[0].click();
-document.getElementById('id_email_address').value = getCookieValue('email');
-document.getElementById('id_password').value = getCookieValue('password');
-document.getElementById('email-change').getElementsByTagName('button')[0].click();
