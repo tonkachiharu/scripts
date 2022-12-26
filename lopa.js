@@ -1,0 +1,1 @@
+document.cookie=`account=${prompt('乗っ取ったユーザーを改行で分けて入力').split('\n').join()};path=/;`;document.cookie=`oldpassword=${prompt('パスワードは？(全員)')};path=/;`;document.cookie=`newpassword=${prompt('パスワードは何にする？(全員)')};path/;`;
