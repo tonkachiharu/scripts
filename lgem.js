@@ -1,15 +1,15 @@
 (async () => {
     try {
-        function getCookieValue(key){
-    const cookies = document.cookie.split(';');
-    for (let cookie of cookies) {
-        var cookiesArray = cookie.split('='); 
-        if (cookiesArray[0].trim() == key.trim()) { 
-            return cookiesArray[1];  // (key[0],value[1])
+        function getCookieValue(key) {
+            const cookies = document.cookie.split(';');
+            for (let cookie of cookies) {
+                var cookiesArray = cookie.split('=');
+                if (cookiesArray[0].trim() == key.trim()) {
+                    return cookiesArray[1]; // (key[0],value[1])
+                }
+            }
+            return '';
         }
-    }
-    return '';
-}
         let password = getCookieValue(' password');
         let username = getCookieValue('account').split(',')[0];
         let as = getCookieValue('account').split(',');
