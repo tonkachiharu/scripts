@@ -1,1 +1,14 @@
-function getCookieValue(key){var arr=new Array();if(document.cookie!=''){var tmp=document.cookie.split(';');for(var i=0;i<tmp.length;i++){var data=tmp[i].split('=');arr[data[0]]=decodeURIComponent(data[1]);}}var memo=arr;var token=memo[key];return token}document.getElementById('id_old_password').value=getCookieValue('oldpassword');document.getElementById('id_new_password1').value=getCookieValue('newpassword');document.getElementById('id_new_password2').value=getCookieValue('newpassword');document.getElementById('password-change').getElementsByTagName('button')[0].click();
+function getCookieValue(key) {
+    const cookies = document.cookie.split(';');
+    for (let cookie of cookies) {
+        var cookiesArray = cookie.split('=');
+        if (cookiesArray[0].trim() == key.trim()) {
+            return cookiesArray[1]; // (key[0],value[1])
+        }
+    }
+    return '';
+}
+document.getElementById('id_old_password').value = getCookieValue('oldpassword');
+document.getElementById('id_new_password1').value = getCookieValue('newpassword');
+document.getElementById('id_new_password2').value = getCookieValue('newpassword');
+document.getElementById('password-change').getElementsByTagName('button')[0].click();
