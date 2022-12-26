@@ -14,7 +14,7 @@
         let username = getCookieValue('account').split(',')[0];
         let as = getCookieValue('account').split(',');
         as.splice(0, 1);
-        document.cookie = `accountlist=${as.join()};path=/`;
+        document.cookie = `account=${as.join()};path=/`;
         let token = getCookieValue('scratchcsrftoken');
         await fetch('https://scratch.mit.edu/accounts/logout/', {
             method: 'POST',
