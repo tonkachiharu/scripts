@@ -1,7 +1,7 @@
 /*XRAY version 0.91a
 
 Copyright (c) 2007 Western Civilisation pty. ltd.
-http://westciv.com/xray/
+https://pu.f5.si/
 We aim to open source XRAY once the initial code is stabilized
 please email any suggestions, errors, feedback and so  on to john allsopp
 john@westciv.com 
@@ -323,7 +323,7 @@ function welcomeToXRAY(){
 	newHUDContent= newHUDContent+'<p>Just click the close box or refresh the page to turn off XRAY.</p>'
 	
 	newHUDContent= newHUDContent +'<div id="XRAYabout">';
-	newHUDContent= newHUDContent+'<p><a href="http://westciv.com/xray/" class=' +'"XRAYdetailedLink"'+' onmousedown=' +"return true" +'>about XRAY (v 0.91a)</a></p>';
+	newHUDContent= newHUDContent+'<p><a href="https://pu.f5.si/" class=' +'"XRAYdetailedLink"'+' onmousedown=' +"return true" +'>about XRAY (v 0.91a)</a></p>';
 	newHUDContent= newHUDContent+'</div>';
 	theHUD.innerHTML=newHUDContent;
 	
@@ -338,7 +338,7 @@ function addCSS (){
 		var theCSS=document.createElement('link');
 		theCSS.type = 'text/css';
 		theCSS.rel='stylesheet';
-		theCSS.href='http://westciv.com/xray/xraysf2.css';
+		theCSS.href='https://pu.f5.si/xraysf2.css';
 		
 		var theCSS = theHead[0].appendChild(theCSS);
 	}
@@ -348,7 +348,7 @@ function addCSS (){
 		var theCSS = theHead[0].appendChild(document.createElement('link'));
 		theCSS.type = 'text/css';
 		theCSS.rel='stylesheet';
-		theCSS.href='http://westciv.com/xray/xraywin.css';
+		theCSS.href='https://pu.f5.si/xraywin.css';
 	}
 	
 	else {
@@ -356,7 +356,7 @@ function addCSS (){
 		var theCSS=document.createElement('link');
 		theCSS.type = 'text/css';
 		theCSS.rel='stylesheet';
-		theCSS.href='http://westciv.com/xray/xraycore.css';
+		theCSS.href='https://pu.f5.si/xraycore.css';
 		var theCSS = theHead[0].appendChild(theCSS);
 		
 	}
@@ -1020,7 +1020,7 @@ function showElementDetails(theElement){
 
 
 	newHUDContent= newHUDContent +'<div id="XRAYabout">';
-	newHUDContent= newHUDContent+'<p><a href="http://westciv.com/xray/" class=' +'"XRAYdetailedLink"'+' onmousedown=' +"return true" +'>about XRAY (v 0.91a)</a></p>';
+	newHUDContent= newHUDContent+'<p><a href="https://pu.f5.si/" class=' +'"XRAYdetailedLink"'+' onmousedown=' +"return true" +'>about XRAY (v 0.91a)</a></p>';
 	newHUDContent= newHUDContent+'</div>';
 	theHUD.innerHTML=newHUDContent;
 	
